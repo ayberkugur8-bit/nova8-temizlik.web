@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<title>ANIL AUTO GALLERY RENT A CAR | VIP Araç Kiralama Antakya</title>
+<meta name="description" content="ANIL AUTO GALLERY RENT A CAR - Antakya/Hatay VIP ve premium araç kiralama. 0532 015 63 73">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23050505' stroke='%23d4af37' stroke-width='5'/><text x='50' y='68' font-size='52' font-family='serif' fill='%23d4af37' text-anchor='middle'>A</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--g1:#8a6d1d;--g2:#f6e08a;--g3:#d4af37;--bg:#050505;--card:#0f0e0a;--txt:#f1ead6;--mut:#a39a80}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:'Montserrat',Arial,sans-serif;line-height:1.65;overflow-x:hidden;padding-bottom:88px}
+.gold{background:linear-gradient(110deg,var(--g1) 10%,var(--g2) 40%,var(--g3) 60%,var(--g1) 90%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes glow{50%{filter:drop-shadow(0 0 34px rgba(246,224,138,.55))}}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:8px 16px;background:rgba(5,5,5,.94);backdrop-filter:blur(10px);border-bottom:1px solid #2a2208}
+header .brand{display:flex;align-items:center;gap:10px;font-family:'Cinzel',serif;font-weight:700;font-size:12px;letter-spacing:2px;line-height:1.2}
+header svg{width:44px;height:44px}
+header a.call{color:#050505;background:linear-gradient(135deg,var(--g2),var(--g3));padding:9px 16px;border-radius:30px;font-weight:600;font-size:12px;text-decoration:none;letter-spacing:1px}
+.hero{position:relative;text-align:center;padding:46px 20px 52px;background:radial-gradient(ellipse at 50% 0,#2e2308 0,#0b0904 45%,#050505 75%);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0 22px,rgba(212,175,55,.035) 22px 23px);pointer-events:none}
+.hero>*{position:relative}
+.hero .logo{width:min(300px,78vw);height:auto;display:block;margin:0 auto 18px;filter:drop-shadow(0 0 22px rgba(212,175,55,.35));animation:glow 4s ease-in-out infinite,up 1s both}
+.tag{font-size:11px;letter-spacing:6px;color:var(--g3);font-weight:600;animation:up 1s .2s both}
+.hero h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(28px,9vw,50px);letter-spacing:3px;line-height:1.15;margin:10px 0;animation:up 1s .3s both}
+.hero p{color:var(--mut);max-width:420px;margin:0 auto 28px;font-weight:300;animation:up 1s .4s both}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:18px auto;max-width:260px}
+.orn i{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--g3))}
+.orn i:last-child{transform:scaleX(-1)}
+.orn b{width:8px;height:8px;background:var(--g3);transform:rotate(45deg)}
+.btns{display:flex;flex-direction:column;gap:12px;max-width:360px;margin:0 auto;animation:up 1s .5s both}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px;border-radius:14px;font-weight:600;font-size:14px;letter-spacing:1px;text-decoration:none;transition:.2s}
+.btn:active{transform:scale(.97)}
+.btn svg{width:22px;height:22px;flex:none}
+.b-wa{background:linear-gradient(135deg,var(--g2),var(--g3) 55%,var(--g1));color:#050505;box-shadow:0 8px 26px rgba(212,175,55,.28)}
+.b-ig,.b-loc{border:1.5px solid var(--g3);color:var(--g2);background:rgba(212,175,55,.06)}
+section{padding:46px 20px;max-width:780px;margin:0 auto}
+h2{font-family:'Cinzel',serif;text-align:center;font-size:25px;letter-spacing:3px}
+.sub{text-align:center;color:var(--mut);font-size:13px;font-weight:300;margin-top:6px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
+.card{position:relative;background:linear-gradient(160deg,#16130a,#0a0905);border:1px solid #3a2f0e;border-radius:18px;padding:24px 12px;text-align:center}
+.card::after{content:"";position:absolute;inset:5px;border:1px solid rgba(212,175,55,.12);border-radius:13px;pointer-events:none}
+.card .ic{font-size:30px}
+.card h3{font-family:'Cinzel',serif;font-size:13px;margin-top:8px;color:var(--g2);letter-spacing:1.5px}
+.card p{font-size:12px;color:var(--mut);margin-top:4px;font-weight:300}
+.steps{margin-top:26px;display:grid;gap:12px}
+.step{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid #2b2410;border-radius:16px;padding:16px}
+.step span{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:'Cinzel',serif;font-weight:700;color:#050505;background:linear-gradient(135deg,var(--g2),var(--g3))}
+.step h3{font-size:14px;color:var(--g2)}
+.step p{font-size:12px;color:var(--mut);font-weight:300}
+.about{text-align:center;color:var(--mut);font-weight:300;margin-top:20px}
+.about b{color:var(--g2);font-weight:600}
+.contact{background:linear-gradient(160deg,#16130a,#0a0905);border:1px solid var(--g1);border-radius:22px;padding:28px 18px;margin-top:24px;text-align:center;box-shadow:0 0 40px rgba(212,175,55,.08)}
+.contact .name{font-size:11px;letter-spacing:4px;color:var(--mut)}
+.contact .tel{display:block;font-family:'Cinzel',serif;font-weight:700;font-size:26px;text-decoration:none;margin:6px 0}
+.contact address{font-style:normal;color:var(--mut);font-size:14px;margin-bottom:20px}
+footer{text-align:center;color:#6f6750;font-size:11px;letter-spacing:1px;padding:22px 20px 30px;border-top:1px solid #1d1a10}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(5,5,5,.97);border-top:1px solid #3a2f0e}
+.bar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;letter-spacing:1px;font-weight:600;color:var(--g2);text-decoration:none;padding:5px}
+.bar a svg{width:24px;height:24px}
+.bar a.main{color:#050505;background:linear-gradient(135deg,var(--g2),var(--g3));border-radius:12px}
+@media(min-width:700px){.btns{flex-direction:row;max-width:680px}.btn{flex:1}.grid{grid-template-columns:repeat(4,1fr)}.bar{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a6d1d"/><stop offset=".35" stop-color="#f6e08a"/><stop offset=".7" stop-color="#d4af37"/><stop offset="1" stop-color="#7a5f17"/></linearGradient>
+<g id="car">
+<ellipse cx="206" cy="262" rx="104" ry="5" fill="#d4af37" opacity=".18"/>
+<path fill="url(#g)" d="M108 238 L108 226 Q110 216 122 212 L150 208 Q170 192 196 187 Q216 184 232 186 Q252 190 266 204 L286 209 Q302 213 304 226 L304 238 L288 238 A22 22 0 0 0 244 238 L168 238 A22 22 0 0 0 124 238 Z"/>
+<path fill="#090805" d="M176 206 Q188 196 202 193 L218 192 L218 206 Z M226 192 Q244 194 256 206 L226 206 Z"/>
+<path d="M124 219 Q210 211 298 221" fill="none" stroke="#090805" stroke-width="1.6"/>
+<path d="M290 214 L301 221 L290 223 Z" fill="#090805"/>
+<path d="M108 222 L116 222 L116 228 L108 228 Z" fill="#090805"/>
+<g id="wh"><circle cx="146" cy="240" r="17" fill="#090805" stroke="url(#g)" stroke-width="3"/><circle cx="146" cy="240" r="9" fill="none" stroke="url(#g)" stroke-width="1.6"/><circle cx="146" cy="240" r="3" fill="url(#g)"/><path d="M146 231V249M137 240H155M139.600 233.600L152.400 246.400M152.400 233.600L139.600 246.400" stroke="url(#g)" stroke-width="1"/></g>
+<use href="#wh" x="120"/>
+</g>
+<symbol id="mono" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="46" fill="#050505" stroke="url(#g)" stroke-width="3"/>
+<circle cx="50" cy="50" r="40" fill="none" stroke="url(#g)" stroke-width=".8"/>
+<path d="M36 28 L40 19 L45 25 L50 16 L55 25 L60 19 L64 28 Z" fill="url(#g)"/>
+<use href="#car" transform="translate(50 56) scale(.33) translate(-206 -215)"/>
+</symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.200z"/><path fill="currentColor" d="M16.600 14.300c-.2-.1-1.400-.7-1.600-.8-.2-.1-.4-.1-.5.100l-.8 1c-.1.200-.3.200-.5.100-1.300-.6-2.400-1.500-3.200-2.900-.2-.3.200-.3.600-1 .1-.1 0-.3 0-.4l-.7-1.700c-.2-.4-.3-.4-.5-.4h-.4c-.2 0-.4.100-.6.300-.6.600-.9 1.300-.9 2.100 0 .5.200 1 .4 1.400.5.900 2.400 3.500 5.200 4.400.7.200 1.300.2 1.800.1.600-.1 1.300-.6 1.500-1.200.2-.6.2-1.100.1-1.200-.1-.1-.2-.2-.5-.3z"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.500a4.500 4.500 0 1 1 0 9 4.500 4.500 0 0 1 0-9zm0 2a2.500 2.500 0 1 0 0 5 2.500 2.500 0 0 0 0-5zM17.500 5.800a1.200 1.200 0 1 1 0 2.400 1.200 1.200 0 0 1 0-2.400z"/></symbol>
+<symbol id="i-loc" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.200 7 13 7 13s7-7.800 7-13a7 7 0 0 0-7-7zm0 9.500A2.500 2.500 0 1 1 12 6.500a2.500 2.500 0 0 1 0 5z"/></symbol>
+<symbol id="i-tel" viewBox="0 0 24 24"><path fill="currentColor" d="M6.600 10.800a15 15 0 0 0 6.600 6.600l2.200-2.200a1 1 0 0 1 1-.25 11.400 11.400 0 0 0 3.600.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.500a1 1 0 0 1 1 1c0 1.300.2 2.500.6 3.600a1 1 0 0 1-.25 1z"/></symbol>
+</defs>
+</svg>
+
+<header>
+  <div class="brand"><svg><use href="#mono"/></svg><span class="gold">ANIL AUTO<br>GALLERY</span></div>
+  <a class="call" href="tel:+905320156373">HEMEN ARA</a>
+</header>
+
+<div class="hero">
+  <svg class="logo" viewBox="0 0 400 400" role="img" aria-label="ANIL AUTO GALLERY RENT A CAR logo">
+    <defs>
+      <path id="top" d="M72 200 A128 128 0 0 1 328 200"/>
+      <path id="bot" d="M48 200 A152 152 0 0 0 352 200"/>
+    </defs>
+    <circle cx="200" cy="200" r="192" fill="#050505" stroke="url(#g)" stroke-width="5"/>
+    <circle cx="200" cy="200" r="182" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+    <circle cx="200" cy="200" r="108" fill="#090805" stroke="url(#g)" stroke-width="3"/>
+    <circle cx="200" cy="200" r="100" fill="none" stroke="url(#g)" stroke-width="1"/>
+    <text font-family="Cinzel,Georgia,serif" font-weight="700" font-size="27" letter-spacing="5" fill="#e8c65c"><textPath href="#top" startOffset="50%" text-anchor="middle">ANIL AUTO GALLERY</textPath></text>
+    <text font-family="Cinzel,Georgia,serif" font-weight="700" font-size="25" letter-spacing="11" fill="#e8c65c"><textPath href="#bot" startOffset="50%" text-anchor="middle">RENT A CAR</textPath></text>
+    <path d="M34 200 l8 -6 l8 6 l-8 6z M350 200 l8 -6 l8 6 l-8 6z" fill="url(#g)"/>
+    <path d="M168 142 L174 124 L186 136 L200 112 L214 136 L226 124 L232 142 Z" fill="url(#g)"/>
+    <circle cx="174" cy="121" r="3.500" fill="url(#g)"/><circle cx="200" cy="108" r="4" fill="url(#g)"/><circle cx="226" cy="121" r="3.500" fill="url(#g)"/>
+    <use href="#car" transform="translate(200 211) scale(.9) translate(-206 -215)"/>
+    <text x="200" y="292" text-anchor="middle" font-family="Cinzel,Georgia,serif" font-weight="700" font-size="13" letter-spacing="9" fill="#e8c65c">VIP</text>
+  </svg>
+  <div class="tag">VIP · PREMIUM · LÜKS</div>
+  <h1 class="gold">ANIL AUTO GALLERY<br>RENT A CAR</h1>
+  <div class="orn"><i></i><b></b><i></i></div>
+  <p>Antakya’da ayrıcalıklı araç kiralama deneyimi. Konfor, güven ve prestij bir arada.</p>
+  <div class="btns">
+    <a class="btn b-wa" href="https://wa.me/905320156373?text=Merhaba%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WHATSAPP</a>
+    <a class="btn b-ig" href="https://www.instagram.com/anill.dalyann" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>INSTAGRAM</a>
+    <a class="btn b-loc" href="https://www.google.com/maps/search/?api=1&query=Anayaz%C4%B1%2C%20Yurt%20Sk.%20No%3A71%2C%2031000%20Antakya%2FHatay" target="_blank" rel="noopener"><svg><use href="#i-loc"/></svg>KONUMUMUZ</a>
+  </div>
+</div>
+
+<section>
+  <h2 class="gold">AYRICALIKLARIMIZ</h2>
+  <div class="orn"><i></i><b></b><i></i></div>
+  <div class="grid">
+    <div class="card"><div class="ic">🏆</div><h3>VIP ARAÇLAR</h3><p>Bakımlı, temiz ve seçkin araçlar</p></div>
+    <div class="card"><div class="ic">🛡️</div><h3>GÜVENİLİR</h3><p>Şeffaf ve sorunsuz kiralama</p></div>
+    <div class="card"><div class="ic">⚡</div><h3>HIZLI TESLİM</h3><p>Kolay ve hızlı süreç</p></div>
+    <div class="card"><div class="ic">💎</div><h3>ÖZEL HİZMET</h3><p>Size özel ilgi ve destek</p></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">NASIL KİRALARSINIZ?</h2>
+  <div class="orn"><i></i><b></b><i></i></div>
+  <div class="steps">
+    <div class="step"><span>1</span><div><h3>Bize Ulaşın</h3><p>WhatsApp’tan yazın veya telefonla arayın.</p></div></div>
+    <div class="step"><span>2</span><div><h3>Aracınızı Seçin</h3><p>İhtiyacınıza uygun aracı birlikte belirleyelim.</p></div></div>
+    <div class="step"><span>3</span><div><h3>Yola Çıkın</h3><p>Hızlı teslim alın, konforun keyfini çıkarın.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">HAKKIMIZDA</h2>
+  <div class="orn"><i></i><b></b><i></i></div>
+  <p class="about"><b>ANIL AUTO GALLERY RENT A CAR</b>, Antakya’da müşterilerine premium kalitede araç kiralama hizmeti sunar. İşletme sahibi <b>Anıl Dalyan</b> ile her kiralamada memnuniyet ve güven önceliğimizdir.</p>
+</section>
+
+<section>
+  <h2 class="gold">İLETİŞİM</h2>
+  <div class="orn"><i></i><b></b><i></i></div>
+  <div class="contact">
+    <div class="name">ANIL DALYAN</div>
+    <a class="tel gold" href="tel:+905320156373">0532 015 63 73</a>
+    <address>Anayazı, Yurt Sk. No:71<br>31000 Antakya/Hatay</address>
+    <div class="btns">
+      <a class="btn b-wa" href="https://wa.me/905320156373?text=Merhaba%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WHATSAPP</a>
+      <a class="btn b-ig" href="https://www.instagram.com/anill.dalyann" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@anill.dalyann</a>
+      <a class="btn b-loc" href="https://www.google.com/maps/search/?api=1&query=Anayaz%C4%B1%2C%20Yurt%20Sk.%20No%3A71%2C%2031000%20Antakya%2FHatay" target="_blank" rel="noopener"><svg><use href="#i-loc"/></svg>HARİTADA AÇ</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 ANIL AUTO GALLERY RENT A CAR · TÜM HAKLARI SAKLIDIR</footer>
+
+<nav class="bar">
+  <a href="tel:+905320156373"><svg><use href="#i-tel"/></svg>ARA</a>
+  <a class="main" href="https://wa.me/905320156373?text=Merhaba%2C%20ara%C3%A7%20kiralama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WHATSAPP</a>
+  <a href="https://www.instagram.com/anill.dalyann" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>INSTAGRAM</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Anayaz%C4%B1%2C%20Yurt%20Sk.%20No%3A71%2C%2031000%20Antakya%2FHatay" target="_blank" rel="noopener"><svg><use href="#i-loc"/></svg>KONUM</a>
+</nav>
+
+</body>
+</html>
